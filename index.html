@@ -13,20 +13,35 @@
 </head>
 
 <body>
-  <script src="main.js"></script>
 
   <div class="container">
     <div class="row">
-      <h2 id="character-health">Health</h2>
+      <div class="col-3 character-name align-items-end">
+        <h2 id="character-name" class="character-prop">Name:</h2>
+      </div>
+
+      <h2 id="health" class="text-danger" onclick="character-prop">Health:</h2>
+      <div class="row align-items-end wrapper-one">
+        <div class="col text-right">
+          <button type="button" class="btn btn-outline-danger" onclick="slap()">Slap!</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="whack()">Whack!</button>
+          <button type="button" class="btn btn-outline-success" onclick="kick()">Kick!</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <script src="main.js"></script>
 </body>
 
-<div class="row align-items-end wrapper-one">
-  <div class="col text-center">
 
-    <button type="button" class="btn btn-outline-dark">Slap!</button>
-  </div>
+
+
+<div class="wrapper-two">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgpL0joUm4Sxa4hxG2lrCPSpR6CKGJGVi31wFDqw68HvI5FMmKcg"
+    alt="sora">
+</div>
+<div class="wrapper-three">
 
 </div>
 
